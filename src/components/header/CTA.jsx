@@ -1,6 +1,6 @@
 import React from 'react'
-import Resume from '../../assets/Matias Hernan Abossio Gonzalez Resume (no cel).pdf'
-import CV from '../../assets/Matias Hernan Abossio Gonzalez (sin cel).pdf'
+import Resume from '../../assets/cv/Matias Hernan Abossio Gonzalez Resume (no cel).pdf'
+import CV from '../../assets/cv/Matias Hernan Abossio Gonzalez (sin cel).pdf'
 
 const CTA = () => {
     return (
