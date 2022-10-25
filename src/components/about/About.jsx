@@ -27,12 +27,12 @@ const About = () => {
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
-                            <small>200+ Clients Worldwide</small>
+                            <small>200+ Worldwide</small>
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>80+ Completed Projects</small>
+                            <small>80+ Completed</small>
                         </article>
                     </div>
                     <p>My name is Matias Abossio, I'm a Jr Full Stack Developer from Argentina and also a 9 year Consuming Goods Industry experienced Engineer. I've graduated from Plataforma 5 Coding Bootcamp, adding +800 hours of coding applying Pair Programming and Agile Methodologies to my background.
