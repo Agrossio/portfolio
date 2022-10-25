@@ -80,4 +80,9 @@ header{
     .header__socials, .scroll_down{
         display: none;
     }
+      /* img {
+    width: 18rem;
+    position:absolute;
+    bottom: 0%;
+  } */
 }
