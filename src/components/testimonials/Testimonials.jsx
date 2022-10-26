@@ -12,29 +12,38 @@ const Testimonials = () => {
                 <article className='testimonial'>
                     <div className='teammate__avatar'>
                         <img src={avatar1} alt="Natalia Bebebino" />
-                        <h5 className='teammate__name'>Natalia Bebebino</h5>
-                        <small className='teammate__review'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?
-                        </small>
                     </div>
+                    <h5 className='teammate__name'>Natalia Bebebino</h5>
+                    <small className='teammate__review'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?
+                    </small>
                 </article>
                 <article className='testimonial'>
                     <div className='teammate__avatar'>
                         <img src={avatar1} alt="Natalia Bebebino" />
-                        <h5 className='teammate__name'>Natalia Bebebino</h5>
-                        <small className='teammate__review'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?
-                        </small>
                     </div>
+                    <h5 className='teammate__name'>Natalia Bebebino</h5>
+                    <small className='teammate__review'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?
+                    </small>
                 </article>
                 <article className='testimonial'>
                     <div className='teammate__avatar'>
                         <img src={avatar1} alt="Natalia Bebebino" />
-                        <h5 className='teammate__name'>Natalia Bebebino</h5>
-                        <small className='teammate__review'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?
-                        </small>
                     </div>
+                    <h5 className='teammate__name'>Natalia Bebebino</h5>
+                    <small className='teammate__review'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?
+                    </small>
+                </article>
+                <article className='testimonial'>
+                    <div className='teammate__avatar'>
+                        <img src={avatar1} alt="Natalia Bebebino" />
+                    </div>
+                    <h5 className='teammate__name'>Natalia Bebebino</h5>
+                    <small className='teammate__review'>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?
+                    </small>
                 </article>
             </div>
         </section>
