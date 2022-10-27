@@ -11,23 +11,23 @@ const Contact = () => {
             <h2>Contact Me</h2>
 
             <div className='container contact__container'>
-                <div className='contact_options'>
+                <div className='contact__options'>
                     <article className='contact__option'>
-                        <TbMailFast />
+                        <TbMailFast className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>abossio@gmail.com</h5>
                         <a href='mailto:abossio@gmail.com' target={'_blank'} rel='noreferrer'>Send a message</a>
                     </article>
                     <article className='contact__option'>
-                        <RiMessengerLine />
+                        <RiMessengerLine className='contact__option-icon' />
                         <h4>Messenger</h4>
                         <h5>Matias Abossio</h5>
                         <a href='https://m.me/matias.abossio' target={'_blank'} rel='noreferrer'>Send a message</a>
                     </article>
                     <article className='contact__option'>
-                        <BsWhatsapp />
+                        <BsWhatsapp className='contact__option-icon' />
                         <h4>Whatsapp</h4>
-                        <h5>abossio@gmail.com</h5>
+                        <h5>Phone</h5>
                         <a href='https://wa.me/5491141744671' target={'_blank'} rel='noreferrer'>Send a message</a>
                     </article>
                 </div>
