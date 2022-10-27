@@ -1,5 +1,6 @@
 .container.testimonials__container {
 width: 40%;
+padding-bottom: 4rem;
 }
 
 .teammate__avatar {
@@ -18,4 +19,42 @@ width: 40%;
     padding: 2rem;
     border-radius: 2rem;
     user-select: none;
+}
+
+.testimonial a {
+  color: var(--color-white);
+
+}
+
+.testimonial a:hover {
+  color: var(--color-primary);
+}
+
+.teammate__review {
+color: var(--color-light);
+font-weight: 300;
+display: block;
+width: 80%;
+margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
+@media screen and (max-width: 1024px) {
+.container.testimonials__container{
+  width: 60%;
+}
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
+@media screen and (max-width: 600px) {
+  .container.testimonials__container{
+    width: var(--container-width-sm);
+  }
+  .teammate__review {
+    width: var(--container-width-sm);
+  }
 }
