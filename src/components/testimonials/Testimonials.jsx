@@ -19,7 +19,7 @@ const testimonialsArray = [
     {
         avatar: avatarJulio,
         name: 'Julio Cesar Ramírez Mendoza',
-        link: 'https://www.linkedin.com/in/fernando-sanchez-ramundo/',
+        link: 'https://www.linkedin.com/in/juliocodes/',
         review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
 
     },
