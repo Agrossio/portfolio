@@ -6,13 +6,17 @@ import { BsWhatsapp } from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID
+const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY
+
 const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_9gdsfs5', 'template_9y0hbwo', form.current, 'Yshy_HoBvU_sFui5N')
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
                 alert('Email sent OK!')
