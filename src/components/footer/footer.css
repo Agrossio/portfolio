@@ -54,6 +54,9 @@ footer a {
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 @media screen and (max-width: 1024px) {
+  footer {
+    margin-top: 9rem;
+  }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
