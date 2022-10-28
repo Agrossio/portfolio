@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import { TbMailFast } from 'react-icons/tb'
-import { RiMessengerLine } from 'react-icons/ri'
+// import { RiMessengerLine } from 'react-icons/ri'
 import { BsWhatsapp } from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
