@@ -5,109 +5,161 @@ import { BiCheck } from 'react-icons/bi'
 const Featured = () => {
     return (
         <section id='featured'>
-            <h5>My Last Projects</h5>
+            <h5>My Last Projects Stack</h5>
             <h2>Featured</h2>
             <div className='container featured__container'>
                 <article className='project'>
                     <div className='project__head'>
-                        <h3>UX/UI</h3>
+                        <h3>Bookings App</h3>
                     </div>
                     <ul className='project__list'>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Node.js</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Next.js</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Mongoose</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>JWT</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Bcrypt</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>NextAuth</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Nodemailer</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Async-lock</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>React</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Axios</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Chakra-UI</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>React-Calendar</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Trello</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Figma</p>
                         </li>
                     </ul>
                 </article>
-                {/* END OF UX/UI */}
+                {/* END OF BOOKINGS APP */}
                 <article className='project'>
                     <div className='project__head'>
-                        <h3>Web Development</h3>
+                        <h3>Ecommerce</h3>
                     </div>
                     <ul className='project__list'>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Axios</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Bcryptjs</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Sequelize</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Express</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>JWT</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Nodemailer</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>React</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Bootstrap</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Axios</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Redux</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Trello</p>
                         </li>
                     </ul>
                 </article>
-                {/* END OF WEB DEVELOPMENT */}
+                {/* END OF ECOMMERCE */}
                 <article className='project'>
                     <div className='project__head'>
-                        <h3>Content Creation</h3>
+                        <h3>MatMDB</h3>
                     </div>
                     <ul className='project__list'>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Node.js</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Bcrypt</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Express</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>JWT</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Sequelize</p>
                         </li>
                         <li>
                             <BiCheck className='project__list-icon' />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <p>Bootstrap</p>
+                        </li>
+                        <li>
+                            <BiCheck className='project__list-icon' />
+                            <p>Axios</p>
                         </li>
                     </ul>
                 </article>
-                {/* END OF CONTENT CREATION */}
+                {/* END OF MATMDB */}
             </div>
         </section>
     )
