@@ -4,6 +4,7 @@ import ME from '../../assets/images/profile1.png'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
+import { SiPepsi } from 'react-icons/si'
 
 const About = () => {
     return (
@@ -19,21 +20,27 @@ const About = () => {
                 </div>
                 <div className='about__content'>
                     <div className='about__cards'>
-                        <article className='about__card'>
-                            <FaAward className='about__icon' />
-                            <h5>Experience</h5>
-                            <small>3+ Years Working</small>
-                        </article>
-                        <article className='about__card'>
-                            <FiUsers className='about__icon' />
-                            <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
-                        </article>
-                        <article className='about__card'>
-                            <VscFolderLibrary className='about__icon' />
-                            <h5>Projects</h5>
-                            <small>80+ Completed</small>
-                        </article>
+                        <a href="https://www.plataforma5.la/" target={'_blank'}>
+                            <article className='about__card'>
+                                <FaAward className='about__icon' />
+                                <h5>Plataforma 5 </h5>
+                                <small>Coding Bootcamp</small>
+                            </article>
+                        </a>
+                        <a href="https://www.pepsico.com/" target={'_blank'}>
+                            <article className='about__card'>
+                                <SiPepsi className='about__icon' />
+                                <h5>PepsiCo</h5>
+                                <small>Worked 9+ Years</small>
+                            </article>
+                        </a>
+                        <a href="#services">
+                            <article className='about__card'>
+                                <VscFolderLibrary className='about__icon' />
+                                <h5>Projects</h5>
+                                <small>10+ Completed</small>
+                            </article>
+                        </a>
                     </div>
                     <p>My name is Matias Abossio, I'm a Jr Full Stack Developer from Argentina and also a 9 year Consuming Goods Industry experienced Engineer. I've graduated from Plataforma 5 Coding Bootcamp, adding +800 hours of coding applying Pair Programming and Agile Methodologies to my background.
                     </p>

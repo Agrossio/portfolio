@@ -43,12 +43,13 @@
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
+  user-select: none;
 }
 
 .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
-  cursor: default;
+  /* cursor: default; */
 }
 
 .about__icon {
@@ -59,6 +60,7 @@
 
 .about__card h5 {
   font-size: 0.95rem;
+  color: var(--color-white);
 }
 
 .about__card small {
@@ -88,7 +90,7 @@
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
 @media screen and (max-width: 600px) {
-   .about__me {
+  .about__me {
     width: 65%;
     margin: 0 auto 3rem;
   }

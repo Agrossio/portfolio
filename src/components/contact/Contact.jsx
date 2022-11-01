@@ -1,6 +1,6 @@
 import React from 'react'
 import './contact.css'
-import { TbMailFast } from 'react-icons/tb'
+import { MdOutlineEmail } from 'react-icons/md'
 // import { RiMessengerLine } from 'react-icons/ri'
 import { BsWhatsapp } from 'react-icons/bs'
 import { useRef } from 'react';
@@ -36,7 +36,7 @@ const Contact = () => {
             <div className='container contact__container'>
                 <div className='contact__options'>
                     <article className='contact__option'>
-                        <TbMailFast className='contact__option-icon' />
+                        <MdOutlineEmail className='contact__option-icon' />
                         <h4>Email</h4>
                         <h5>abossio@gmail.com</h5>
                         <a href='mailto:abossio@gmail.com' target={'_blank'} rel='noreferrer'>Send a message</a>
