@@ -42,7 +42,7 @@ const About = () => {
                             </article>
                         </a>
                     </div>
-                    <p>My name is Matias Abossio, I'm a Jr Full Stack Developer from Argentina and also a 9 year Consuming Goods Industry experienced Engineer. I've graduated from Plataforma 5 Coding Bootcamp, adding +800 hours of coding applying Pair Programming and Agile Methodologies to my background.
+                    <p>My name is Matias Abossio, I'm a Jr Full Stack Developer from Argentina and also a 9 year Consumer Goods Industry experienced Engineer. I've graduated from Plataforma 5 Coding Bootcamp, adding +800 hours of coding applying Pair Programming and Agile Methodologies to my background.
                     </p>
 
                     <a href='#contact' className='btn btn-primary'>Let's Talk</a>

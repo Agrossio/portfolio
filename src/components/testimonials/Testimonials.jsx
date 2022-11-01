@@ -16,32 +16,32 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const testimonialsArray = [
-    {
-        avatar: avatarJulio,
-        name: 'Julio Cesar Ramírez Mendoza',
-        link: 'https://www.linkedin.com/in/juliocodes/',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
+    // {
+    //     avatar: avatarJulio,
+    //     name: 'Julio Cesar Ramírez Mendoza',
+    //     link: 'https://www.linkedin.com/in/juliocodes/',
+    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
 
-    },
+    // },
     {
         avatar: avatarNatalia,
         name: 'Natalia Bebebino',
         link: 'https://www.linkedin.com/in/natalia-bebebino-7b31a246/',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
+        review: 'I had the pleasure to get to know Matías during Plataforma 5 Coding Bootcamp. Ever since we started studying, he has proved to be a very curious and capable programmer, always asking the right questions and making sure everybody was on the same page.',
 
     },
-    {
-        avatar: avatarStanislava,
-        name: 'Stanislava Berberova',
-        link: 'https://www.linkedin.com/in/sberberova/',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
-    },
-    {
-        avatar: avatarJuan,
-        name: 'Juan Camilo Romero',
-        link: 'https://www.linkedin.com/in/romerocam/',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
-    },
+    // {
+    //     avatar: avatarStanislava,
+    //     name: 'Stanislava Berberova',
+    //     link: 'https://www.linkedin.com/in/sberberova/',
+    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
+    // },
+    // {
+    //     avatar: avatarJuan,
+    //     name: 'Juan Camilo Romero',
+    //     link: 'https://www.linkedin.com/in/romerocam/',
+    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
+    // },
     {
         avatar: avatarFernando,
         name: 'Fernando Sanchez Ramundo',
