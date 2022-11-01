@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import img1 from '../../assets/projects/project1.png'
 import img2 from '../../assets/projects/project2.png'
+import img3 from '../../assets/projects/project3.png'
 
 const projectsArray = [
     {
@@ -10,7 +11,7 @@ const projectsArray = [
         title: 'Bookings App',
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio/bookings',
-        demo: 'https://cruce-bookingapp.vercel.app/',
+        demo: 'https://cruce-bookingapp.vercel.app',
         demoText: 'Live Demo',
     },
     {
@@ -24,29 +25,29 @@ const projectsArray = [
     },
     {
         id: 3,
-        image: img1,
-        title: 'Bookings App',
-        linkTarget: '_blank',
-        github: 'https://github.com/Agrossio/bookings',
-        demo: 'https://cruce-bookingapp.vercel.app/',
-        demoText: 'Live Demo',
+        image: img3,
+        title: 'TMDB',
+        linkTarget: '_self',
+        github: 'https://github.com/Agrossio/TMDB',
+        demo: '#portfolio',
+        demoText: 'To Be Deployed',
     },
     {
         id: 4,
         image: img1,
-        title: 'Bookings App',
+        title: 'Weather Channel',
         linkTarget: '_blank',
-        github: 'https://github.com/Agrossio/bookings',
-        demo: 'https://cruce-bookingapp.vercel.app/',
+        github: 'https://github.com/Agrossio',
+        demo: 'https://weatherchannel.matiabossio.com.ar',
         demoText: 'Live Demo',
     },
     {
         id: 5,
         image: img1,
-        title: 'Bookings App',
+        title: 'To Do List',
         linkTarget: '_blank',
-        github: 'https://github.com/Agrossio/bookings',
-        demo: 'https://cruce-bookingapp.vercel.app/',
+        github: 'https://github.com/Agrossio',
+        demo: 'https://todolist.matiabossio.com.ar',
         demoText: 'Live Demo',
     },
     {
