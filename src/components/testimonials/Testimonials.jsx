@@ -2,9 +2,9 @@ import React from 'react'
 import './testimonials.css'
 import avatarFernando from '../../assets/images/avatar-fernando.png'
 import avatarNatalia from '../../assets/images/avatar-natalia.jpeg'
-import avatarJuan from '../../assets/images/avatar-juan.jpeg'
-import avatarStanislava from '../../assets/images/avatar-stanislava.jpeg'
-import avatarJulio from '../../assets/images/avatar-julio.jpeg'
+// import avatarJuan from '../../assets/images/avatar-juan.jpeg'
+// import avatarStanislava from '../../assets/images/avatar-stanislava.jpeg'
+// import avatarJulio from '../../assets/images/avatar-julio.jpeg'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
