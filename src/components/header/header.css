@@ -90,7 +90,7 @@ header {
   .me {
     display: none;
   }
-  .btn-primary {
+  .cta > .btn-primary {
     display: none;
   }
 }
