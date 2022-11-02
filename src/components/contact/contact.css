@@ -58,6 +58,12 @@ textarea {
   color: var(--color-white);
 }
 
+button {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  font-size: inherit;
+}
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ======================= */
 @media screen and (max-width: 1024px) {
   .container.contact__container {
