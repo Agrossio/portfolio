@@ -86,4 +86,7 @@ header {
   .me {
     display: none;
   }
+  .btn-primary {
+    display: none;
+  }
 }

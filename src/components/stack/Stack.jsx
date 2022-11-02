@@ -70,7 +70,7 @@ const backArray = [
 const Stack = () => {
     return (
         <section id='stack'>
-            <h5>What Tech Skills I Have</h5>
+            <h5>Main Tech Skills I Have</h5>
             <h2>Tech Stack</h2>
             <div className='container stack__container'>
                 <div className='stack__frontend'>

@@ -7,7 +7,7 @@ import { BsPatchCheck, BsStackOverflow, BsStack } from 'react-icons/bs'
 import { RiStarLine } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
 import { useState } from 'react'
-import underConstruction from '../../assets/images/under-construction/under-construction-transparent.png'
+import underConstruction from '../../assets/images/under-construction/under-construction-small.png'
 import HeaderSocials from '../header/HeaderSocials'
 
 

@@ -3,6 +3,9 @@ import './portfolio.css'
 import img1 from '../../assets/projects/project1.png'
 import img2 from '../../assets/projects/project2.png'
 import img3 from '../../assets/projects/project3.png'
+import img4 from '../../assets/projects/project4.png'
+import img5 from '../../assets/projects/project5.png'
+import img6 from '../../assets/projects/project6.png'
 
 const projectsArray = [
     {
@@ -34,7 +37,7 @@ const projectsArray = [
     },
     {
         id: 4,
-        image: img1,
+        image: img4,
         title: 'Weather Channel',
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio',
@@ -43,7 +46,7 @@ const projectsArray = [
     },
     {
         id: 5,
-        image: img1,
+        image: img5,
         title: 'To Do List',
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio',
@@ -52,11 +55,11 @@ const projectsArray = [
     },
     {
         id: 6,
-        image: img1,
-        title: 'Bookings App',
+        image: img6,
+        title: 'Color Game',
         linkTarget: '_blank',
-        github: 'https://github.com/Agrossio/bookings',
-        demo: 'https://cruce-bookingapp.vercel.app/',
+        github: 'https://github.com/Agrossio/',
+        demo: 'https://colorgame.matiabossio.com.ar/',
         demoText: 'Live Demo',
     },
 ]

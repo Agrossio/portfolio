@@ -27,7 +27,7 @@ const testimonialsArray = [
         avatar: avatarNatalia,
         name: 'Natalia Bebebino',
         link: 'https://www.linkedin.com/in/natalia-bebebino-7b31a246/',
-        review: 'I had the pleasure to get to know Matías during Plataforma 5 Coding Bootcamp. Ever since we started studying, he has proved to be a very curious and capable programmer, always asking the right questions and making sure everybody was on the same page.',
+        review: 'I had the pleasure to get to know Matías during Plataforma 5 Coding Bootcamp. Ever since we started studying, he has proved to be a very curious and capable developer, always asking the right questions and making sure everybody was on the same page.',
 
     },
     // {
