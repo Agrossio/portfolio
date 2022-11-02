@@ -2,7 +2,6 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/images/profile1.png'
 import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
 import { SiPepsi } from 'react-icons/si'
 
@@ -20,14 +19,14 @@ const About = () => {
                 </div>
                 <div className='about__content'>
                     <div className='about__cards'>
-                        <a href="https://www.plataforma5.la/" target={'_blank'}>
+                        <a href="https://www.plataforma5.la/" target={'_blank'} rel="noreferrer">
                             <article className='about__card'>
                                 <FaAward className='about__icon' />
                                 <h5>Plataforma 5 </h5>
                                 <small>Coding Bootcamp</small>
                             </article>
                         </a>
-                        <a href="https://www.pepsico.com/" target={'_blank'}>
+                        <a href="https://www.pepsico.com/" target={'_blank'} rel="noreferrer">
                             <article className='about__card'>
                                 <SiPepsi className='about__icon' />
                                 <h5>PepsiCo</h5>
