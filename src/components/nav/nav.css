@@ -41,10 +41,17 @@ nav a.active {
   /* left: 50%; */
   /* transform: translateX(-50%); */
   top: -1rem;
+  left: -2rem;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
   /* backdrop-filter: blur(15px); */
+}
+
+.fadeOut {
+  visibility: visible;
+  opacity: 0.1;
+  transition: visibility, opacity 2s 5s;
 }
 
 /* ============== HEADER SOCIALS ================= */
@@ -95,8 +102,5 @@ nav a.active {
 
   .under__construction {
     width: 50%;
-    visibility: visible;
-    opacity: 0;
-    transition: visibility 0s 20s, opacity 2s linear;
-  }
+      }
 }

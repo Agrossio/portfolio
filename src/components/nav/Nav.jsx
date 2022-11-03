@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './nav.css'
 import { GiMushroomHouse } from 'react-icons/gi'
 import { AiOutlineUser } from 'react-icons/ai'
@@ -15,9 +15,17 @@ const Nav = () => {
 
     const [activeNav, setActiveNav] = useState('#');
 
+    const [fadeOut, setFadeOut] = useState('under__construction');
+
+
+    useEffect(() => {
+        setTimeout(setFadeOut('under__construction fadeOut'), 0)
+    }, [])
+
+
     return (
         <>
-            <img src={underConstruction} className='under__construction' alt='Under Construction Sign' />
+            <img src={underConstruction} className={fadeOut} alt='Under Construction Sign' />
             <HeaderSocials />
             <nav>
                 <a href='#header' className={activeNav === '#' ? 'active' : ''} onClick={() => setActiveNav('#')}><GiMushroomHouse /></a>
