@@ -92,4 +92,9 @@ nav a.active {
     .me {
       display: none;
     }
+
+    .under__construction {
+      width: 50%;
+          }
+
 }
