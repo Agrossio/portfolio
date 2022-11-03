@@ -40,7 +40,7 @@ nav a.active {
   position: fixed;
   /* left: 50%; */
   /* transform: translateX(-50%); */
-  top: -1rem;
+  top: -2.5rem;
   left: -2rem;
   display: flex;
   gap: 0.8rem;
@@ -51,7 +51,7 @@ nav a.active {
 .fadeOut {
   visibility: visible;
   opacity: 0.1;
-  transition: visibility, opacity 2s 5s;
+  transition: opacity 2s 5s;
 }
 
 /* ============== HEADER SOCIALS ================= */
@@ -101,6 +101,6 @@ nav a.active {
   }
 
   .under__construction {
-    width: 55%;
+    width: 60%;
       }
 }
