@@ -40,11 +40,18 @@ nav a.active {
   position: fixed;
   /* left: 50%; */
   /* transform: translateX(-50%); */
-  top: -1rem;
+  top: -1.5rem;
+  left: -2rem;
   display: flex;
   gap: 0.8rem;
   border-radius: 3rem;
   /* backdrop-filter: blur(15px); */
+}
+
+.fadeOut {
+  visibility: visible;
+  opacity: 0.1;
+  transition: opacity 2s 5s;
 }
 
 /* ============== HEADER SOCIALS ================= */
@@ -66,13 +73,13 @@ nav a.active {
 }
 
 .header__socials::after {
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-  }
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
 
-  /* .scroll_down {
+/* .scroll_down {
     width: max-content;
     position: fixed;
     display: block;
@@ -87,9 +94,13 @@ nav a.active {
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ======================= */
 @media screen and (max-width: 600px) {
-    .header__socials,
-    .scroll_down,
-    .me {
-      display: none;
-    }
+  .header__socials,
+  .scroll_down,
+  .me {
+    display: none;
+  }
+
+  .under__construction {
+    width: 60%;
+      }
 }

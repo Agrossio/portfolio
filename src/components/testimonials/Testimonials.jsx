@@ -2,8 +2,8 @@ import React from 'react'
 import './testimonials.css'
 import avatarFernando from '../../assets/images/avatar-fernando.png'
 import avatarNatalia from '../../assets/images/avatar-natalia.jpeg'
+import avatarStanislava from '../../assets/images/avatar-stanislava.jpeg'
 // import avatarJuan from '../../assets/images/avatar-juan.jpeg'
-// import avatarStanislava from '../../assets/images/avatar-stanislava.jpeg'
 // import avatarJulio from '../../assets/images/avatar-julio.jpeg'
 
 // import Swiper core and required modules
@@ -30,18 +30,6 @@ const testimonialsArray = [
         review: 'I had the pleasure to get to know Matías during Plataforma 5 Coding Bootcamp. Ever since we started studying, he has proved to be a very curious and capable developer, always asking the right questions and making sure everybody was on the same page.',
 
     },
-    // {
-    //     avatar: avatarStanislava,
-    //     name: 'Stanislava Berberova',
-    //     link: 'https://www.linkedin.com/in/sberberova/',
-    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
-    // },
-    // {
-    //     avatar: avatarJuan,
-    //     name: 'Juan Camilo Romero',
-    //     link: 'https://www.linkedin.com/in/romerocam/',
-    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
-    // },
     {
         avatar: avatarFernando,
         name: 'Fernando Sanchez Ramundo',
@@ -49,6 +37,18 @@ const testimonialsArray = [
         review: 'I worked with Matias in Plataforma 5 Bootamp. We Pair Programmed several Workshops and we where teammates in the two weeks Ecommerce project called "Dreamcars". He not only has excelent technical skills but he also is a great person and a great partner to work with.',
 
     },
+    {
+        avatar: avatarStanislava,
+        name: 'Stanislava Berberova',
+        link: 'https://www.linkedin.com/in/sberberova/',
+        review: 'Matias was one of my teammates on one of the group projects at Plataforma 5 Bootcamp. I was amazed by how quickly he picks up and applies new technologies we had not used before. He made major contributions in both front and back ends of our project. He was very meticulous with our work and would insist on testing again and again before any major code merges. He is also a great pair programming partner always open to learn and share knowledge.',
+    },
+    // {
+    //     avatar: avatarJuan,
+    //     name: 'Juan Camilo Romero',
+    //     link: 'https://www.linkedin.com/in/romerocam/',
+    //     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum neque laudantium tempora sit aliquam natus sunt cumque perspiciatis! Vel natus consequatur, odio assumenda itaque facilis blanditiis rem dicta eaque quos?',
+    // },
 ]
 
 const Testimonials = () => {
