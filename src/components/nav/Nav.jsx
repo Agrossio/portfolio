@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import './nav.css'
-import { GiMushroomHouse } from 'react-icons/gi'
-import { AiOutlineUser } from 'react-icons/ai'
+import { AiOutlineUser, AiOutlineHome } from 'react-icons/ai'
 //import { MdWorkOutline } from 'react-icons/md'
 import { BsStack } from 'react-icons/bs'
 import { RiStarLine } from 'react-icons/ri'
@@ -28,7 +27,7 @@ const Nav = () => {
             <img src={underConstruction} className={fadeOut} alt='Under Construction Sign' />
             <HeaderSocials />
             <nav>
-                <a href='#header' className={activeNav === '#' ? 'active' : ''} onClick={() => setActiveNav('#')}><GiMushroomHouse /></a>
+                <a href='#header' className={activeNav === '#' ? 'active' : ''} onClick={() => setActiveNav('#')}><AiOutlineHome /></a>
                 <a href='#about' className={activeNav === '#about' ? 'active' : ''} onClick={() => setActiveNav('#about')}><AiOutlineUser /></a>
                 <a href='#stack' className={activeNav === '#stack' ? 'active' : ''} onClick={() => setActiveNav('#stack')}><BsStack /></a>
                 <a href='#featured' className={activeNav === '#featured' ? 'active' : ''} onClick={() => setActiveNav('#featured')}><RiStarLine /></a>
