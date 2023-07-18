@@ -5,8 +5,8 @@ import React from 'react'
 const CTA = () => {
     return (
         <div className='cta'>
-            <a href='https://drive.google.com/file/d/1xj1jvgr2tbsGy_KWAs_9OAaERhWYdJfx/view?usp=sharing' target='_blank' rel='noreferrer' className='btn'>Resume</a>
-            <a href='https://drive.google.com/file/d/1QzyIJus74Pvm_hyUDlwKXFsGlB0bMYvf/view?usp=sharing' target='_blank' rel='noreferrer' className='btn'>CV</a>
+            <a href='https://drive.google.com/file/d/1yZ1ZV0vAJ74czWEvnyX5wROT1mkHskmH/view?usp=drive_link' target='_blank' rel='noreferrer' className='btn'>Resume</a>
+            <a href='https://drive.google.com/file/d/117LOFvHhus9b1STxcb32g_AX1bDl40ZT/view?usp=drive_link' target='_blank' rel='noreferrer' className='btn'>CV</a>
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
     )
