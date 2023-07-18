@@ -6,11 +6,41 @@ import img3 from '../../assets/projects/project3.png'
 import img4 from '../../assets/projects/project4.png'
 import img5 from '../../assets/projects/project5.png'
 import img6 from '../../assets/projects/project6.png'
+import img7 from '../../assets/projects/project7.png'
+import img8 from '../../assets/projects/project8.png'
+import img9 from '../../assets/projects/project9.png'
 
 const projectsArray = [
     {
         id: 1,
         image: img1,
+        title: 'PokeChallenge',
+        linkTarget: '_blank',
+        github: 'https://github.com/Agrossio/pokechallenge',
+        demo: 'https://pokechallenge.matiabossio.com.ar/api/v1/doc/swagger-ui/index.html',
+        demoText: 'API Docs',
+    },
+    {
+        id: 2,
+        image: img2,
+        title: 'Tus Horas',
+        linkTarget: '_blank',
+        github: 'https://github.com/Agrossio/Agrossio',
+        demo: '#portfolio',
+        demoText: 'To Be Deployed',
+    },
+    {
+        id: 3,
+        image: img3,
+        title: 'MatTMDB (back to be deployed)',
+        linkTarget: '_blank',
+        github: 'https://github.com/Agrossio/angular_mattmdb',
+        demo: 'https://movies.matiabossio.com.ar/',
+        demoText: 'Front Demo',
+    },
+    {
+        id: 4,
+        image: img4,
         title: 'Bookings App',
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio/bookings',
@@ -18,8 +48,8 @@ const projectsArray = [
         demoText: 'Live Demo',
     },
     {
-        id: 2,
-        image: img2,
+        id: 5,
+        image: img5,
         title: 'Ecommerce - Dreamcars',
         linkTarget: '_self',
         github: 'https://github.com/Agrossio/dreamcars',
@@ -27,8 +57,8 @@ const projectsArray = [
         demoText: 'To Be Deployed',
     },
     {
-        id: 3,
-        image: img3,
+        id: 6,
+        image: img6,
         title: 'TMDB',
         linkTarget: '_self',
         github: 'https://github.com/Agrossio/TMDB',
@@ -36,8 +66,8 @@ const projectsArray = [
         demoText: 'To Be Deployed',
     },
     {
-        id: 4,
-        image: img4,
+        id: 7,
+        image: img7,
         title: 'Weather Channel',
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio',
@@ -45,8 +75,8 @@ const projectsArray = [
         demoText: 'Live Demo',
     },
     {
-        id: 5,
-        image: img5,
+        id: 8,
+        image: img8,
         title: 'To Do List',
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio',
@@ -54,8 +84,8 @@ const projectsArray = [
         demoText: 'Live Demo',
     },
     {
-        id: 6,
-        image: img6,
+        id: 9,
+        image: img9,
         title: 'Color Game',
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio/',
