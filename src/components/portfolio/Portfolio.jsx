@@ -25,9 +25,9 @@ const projectsArray = [
         image: img2,
         title: 'Tus Horas',
         linkTarget: '_blank',
-        github: 'https://github.com/Agrossio/Agrossio',
-        demo: '#portfolio',
-        demoText: 'To Be Deployed',
+        github: 'https://github.com/Agrossio/GestionHorariosFrontend',
+        demo: 'https://horarios.matiabossio.com.ar/',
+        demoText: 'Live Demo',
     },
     {
         id: 3,
