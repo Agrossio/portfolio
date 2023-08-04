@@ -12,60 +12,92 @@ const frontArray = [
         level: '...',
     },
     {
+        technology: 'TypeScript',
+        level: '...',
+    },
+    {
+        technology: 'Angular',
+        level: '...',
+    },
+    {
         technology: 'Bootstrap',
         level: '...',
     },
     {
-        technology: 'React.js',
+        technology: 'SweetAlert2',
         level: '...',
     },
-    {
-        technology: 'Next.js',
-        level: '...',
-    },
-    {
-        technology: 'Axios',
-        level: '...',
-    },
-    {
-        technology: 'Redux',
-        level: '...',
-    },
+    // {
+    //     technology: 'React.js',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'Next.js',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'Axios',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'Redux',
+    //     level: '...',
+    // },
 ]
 
 const backArray = [
     {
+        technology: 'JAVA',
+        level: '...',
+    },
+    {
+        technology: 'Springboot',
+        level: '...',
+    },
+    {
+        technology: 'JPA',
+        level: '...',
+    },
+    {
+        technology: 'Lombok',
+        level: '...',
+    },
+    {
+        technology: 'Docker',
+        level: '...',
+    },
+    {
         technology: 'Node.js',
         level: '...',
     },
-    {
-        technology: 'PostgreSQL',
-        level: '...',
-    },
-    {
-        technology: 'MongoDB',
-        level: '...',
-    },
-    {
-        technology: 'Express',
-        level: '...',
-    },
-    {
-        technology: 'Sequelize',
-        level: '...',
-    },
-    {
-        technology: 'Mongoose',
-        level: '...',
-    },
-    {
-        technology: 'JWT',
-        level: '...',
-    },
-    {
-        technology: 'Nodemailer',
-        level: '...',
-    },
+    // {
+    //     technology: 'PostgreSQL',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'MongoDB',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'Express',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'Sequelize',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'Mongoose',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'JWT',
+    //     level: '...',
+    // },
+    // {
+    //     technology: 'Nodemailer',
+    //     level: '...',
+    // },
 ]
 const Stack = () => {
     return (

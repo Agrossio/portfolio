@@ -18,7 +18,7 @@ const projectsArray = [
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio/pokechallenge',
         demo: 'https://pokechallenge.matiabossio.com.ar/api/v1/doc/swagger-ui/index.html',
-        demoText: 'API Docs',
+        demoText: 'Documentation',
     },
     {
         id: 2,
@@ -32,11 +32,11 @@ const projectsArray = [
     {
         id: 3,
         image: img3,
-        title: 'MatTMDB (back to be deployed)',
+        title: 'MatTMDB',
         linkTarget: '_blank',
         github: 'https://github.com/Agrossio/angular_mattmdb',
         demo: 'https://movies.matiabossio.com.ar/',
-        demoText: 'Front Demo',
+        demoText: 'Live Demo',
     },
     {
         id: 4,
