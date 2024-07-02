@@ -59,15 +59,21 @@ const backArray = [
         level: '...',
     },
     {
+        technology: 'mySQL',
+        level: '...',
+    },    {
         technology: 'Lombok',
         level: '...',
     },
     {
-        technology: 'Docker',
+        technology: 'Swagger',
+        level: '...',
+    },    {
+        technology: 'Maven',
         level: '...',
     },
     {
-        technology: 'Node.js',
+        technology: 'Docker',
         level: '...',
     },
     // {

@@ -37,11 +37,13 @@ const About = () => {
                             <article className='about__card'>
                                 <SiMicrosoftedge className='about__icon' />
                                 <h5>ASJ Sevicios</h5>
-                                <small>Angular + Java Dev</small>
+                                <small>Java Spring Boot Dev</small>
                             </article>
                         </a>
                     </div>
-                    <p>My name is Matias Abossio, I'm a Jr Full Stack Developer from Argentina and also a 9 year Consumer Goods Industry experienced Engineer. Nowadays, I'm working at ASJ Servicios (a Grupo Petersen Company), after finishing an in company bootcamp. On October-22 I've graduated from Plataforma 5 Coding Bootcamp, adding +800 hours of coding applying Pair Programming and Agile Methodologies to my background.
+                    <p>My name is Matias Abossio, I'm a Java + Spring Boot Developer from Argentina and also a 9 year Consumer Goods Industry experienced Engineer. Nowadays, I'm working at ASJ Servicios (a Grupo Petersen Company), after finishing an in company bootcamp. On October-22 I've graduated from Plataforma 5 PERN Coding Bootcamp, adding +800 hours of coding applying Pair Programming and Agile Methodologies to my background.
+                    </p>
+                    <p>Regarding my way of working, my first concern is to understand the business and its needs, particularly where my actions will have influence. I believe this is the best way to offer solutions that truly add value to the client and avoid wasting effort on activities that seem impactful when they actually aren't.
                     </p>
 
                     <a href='#contact' className='btn btn-primary'>Let's Talk</a>
